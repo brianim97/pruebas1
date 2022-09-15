@@ -1,0 +1,27 @@
+{
+  "name": "ftps-prueba",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev":"nodemon src/app.js "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^5.3.1",
+    "basic-ftp": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "ftp": "^0.3.10",
+    "morgan": "^1.10.0",
+    "mssql": "^9.0.1",
+    "socket.io": "^4.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

@@ -1,0 +1,7 @@
+node_modules
+daemon
+daemon/*
+public/*
+.env
+config/*
+config/db.js
